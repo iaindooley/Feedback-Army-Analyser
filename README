@@ -1,0 +1,16 @@
+This is a system for analysing and quantifying survey responses from FeedbackArmy.com
+
+I have released this code as part of a project I undertook to experiment with
+A/B testing website copy before engaging in a visual design process.
+
+You can read all about the project here:
+
+http://www.decalcms.com/page/Testing_your_website_before_launching_how_to_let_content_drive_design
+
+1. Unzip in your web root
+2. Import feedback.sql into a new database
+3. Set your database details in connect.php
+4. Copy and paste your feedback army results into separate text files in the fb_army directory
+5. Edit import_fb_army.php to define your questions and different URLs/file names
+6. Run import_fb_army.php either from the command line or by pointing a browser at it, you only need to do this once
+4. Point a browser at unformatted.php to get started
